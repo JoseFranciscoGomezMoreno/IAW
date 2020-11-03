@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Lab3.6</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="lab36.php" method="GET">
+          <p>Nombre: <input type="text" name="nombre" required></p>
+          <p>Apellidos:
+            <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos">
+          </p>
+          <p>Edad: <select name="edad">
+            <option value="entre 15 y 25 años">Entre 15 y 25 años</option>
+            <option value="entre 16 y 35 años">Entre 26 y 35 años</option>
+            <option value="entre 36 y 50 años">Entre 36 y 50 años</option>
+          </select>
+        </p>
+          <p>Peso: <input type="text" name="peso" required>kg</p>
+          <p>Sexo:
+            <input type="radio" name="hm" value="Hombre" required> Hombre
+            <input type="radio" name="hm" value="Mujer" required> Mujer
+          </p>
+          <p>Estado civil:
+            <input type="radio" name="abc" value="Casado" required> Casado
+            <input type="radio" name="abc" value="Soltero" required> Soltero
+            <input type="radio" name="abc" value="Otro" required> Otro
+          </p>
+          <p>Aficiones:
+            <input type="radio" name="edf" value="Cine" required> Cine
+            <input type="radio" name="edf" value="Deporte" required> Deporte
+            <input type="radio" name="edf" value="Literatura" required> Literatura
+            <input type="radio" name="edf" value="Musica" required> Musica
+            <input type="radio" name="edf" value="Tebeos" required> Tebeos
+            <input type="radio" name="edf" value="Television" required> Television
+          </p>
+          <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+          </p>
+          </form>
+    </body>
+</html>
