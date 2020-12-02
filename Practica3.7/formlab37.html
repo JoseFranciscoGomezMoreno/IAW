@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Practica 3.7</title>
+</head>
+<body>
+    <form action="Lab37.php" method="GET">    
+        <label for="tipo">Selecciona el tipo de vivienda:</label>
+        <select name="tipo">
+            <option value="adosado">Adosado</option>
+            <option value="chalet">Chalet</option>
+            <option value="apartamento">Apartamento</option>
+            <option value="piso">Piso</option>
+        </select>
+        <br/>
+        <label for="zona">Selecciona la zona:</label>
+        <select name="zona">
+            <option value="centro">Centro</option>
+            <option value="extrarradio">Extrarradio</option>
+            <option value="pueblo">Pueblo</option>
+            <option value="sierra">Sierra</option>
+        </select>
+        <br/>
+        <label for="direccion">Introduce dirección:</label>
+        <input type="text" name="direccion"/>
+        <br/>
+        Selecciona nº de habitaciones:
+        <label for="1">1</label>
+        <input type="radio" name="habitaciones" id="1" value="1"/>
+        <label for="2">2</label>
+        <input type="radio" name="habitaciones" id="2" value="2"/>
+        <label for="3">3</label>
+        <input type="radio" name="habitaciones" id="3" value="3"/>
+        <br/>
+        <label for="precio">Introduce precio:</label>
+        <input type="text" name="precio" />
+        <br/>
+        <label for="tamaño">Introduce tamaño:</label>
+        <input type="text" name="tamaño"/>
+        <br/>
+        Selecciona los extras que necesites:
+        <input type="checkbox" name="extra1" id="extra1" value="garaje">
+        <label for="extra1">Garaje</label>
+        <input type="checkbox" name="extra2" id="extra2" value="trastero">
+        <label for="extra2">Trastero</label>
+        <input type="checkbox" name="extra3" id="extra3" value="piscina">
+        <label for="extra3">Piscina</label>
+        <br/>
+        <textarea name="comentarios" cols="70" rows="10"></textarea>
+        <br/>
+        <input type="submit" value="Enviar"/>
+
+    </form> 
+</body>
+</html>
